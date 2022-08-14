@@ -1,3 +1,5 @@
+import '@fortawesome/fontawesome-free/css/all.css';
+
 export default {
 	theme: {
 		themes: {
@@ -11,5 +13,8 @@ export default {
 				success: '#8bc34a'
 			}
 		},
+	},
+	icons: {
+		iconfont: 'fa'
 	}
 }

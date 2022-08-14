@@ -2,7 +2,7 @@
   <!-- App.vue -->
 
   <v-app>
-    <v-navigation-drawer app>
+    <v-navigation-drawer app v-if='false'>
       <!-- -->
     </v-navigation-drawer>
 
@@ -19,23 +19,29 @@
       </v-container>
     </v-main>
 
-    <v-bottom-navigation color="accent">
+    <v-bottom-navigation color="accent" app grow>
       <v-btn>
-        <span>Recents</span>
+        <span>Home</span>
 
-        <v-icon>mdi-history</v-icon>
-      </v-btn>
-
-      <v-btn>
-        <span>Favorites</span>
-
-        <v-icon>mdi-heart</v-icon>
+        <v-icon>fa-solid fa-house</v-icon>
       </v-btn>
 
       <v-btn>
         <span>Nearby</span>
 
-        <v-icon>mdi-map-marker</v-icon>
+        <v-icon>fa-solid fa-location-dot</v-icon>
+      </v-btn>
+
+      <v-btn>
+        <span>Favorites</span>
+
+        <v-icon>fa-solid fa-heart</v-icon>
+      </v-btn>
+
+      <v-btn>
+        <span>User</span>
+
+        <v-icon>fa-solid fa-user</v-icon>
       </v-btn>
     </v-bottom-navigation>
   </v-app>
