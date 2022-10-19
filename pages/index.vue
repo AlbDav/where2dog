@@ -6,7 +6,7 @@
       <!-- -->
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar color="secondary" app>
       <!-- -->
     </v-app-bar>
 
@@ -19,7 +19,7 @@
       </v-container>
     </v-main>
 
-    <v-bottom-navigation color="accent" app grow>
+    <v-bottom-navigation color="accent" background-color="secondary" mandatory app grow>
       <v-btn>
         <span>Home</span>
 

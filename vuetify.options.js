@@ -4,8 +4,8 @@ export default {
 	theme: {
 		themes: {
 			light: {
-				primary: '3e619b',
-				secondary: '#CDF4FA',
+				primary: '#F1F2F3',
+				secondary: '#035588',
 				accent: '#FF5964',
 				error: '#f44336',
 				warning: '#ff5722',
